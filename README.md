@@ -1,3 +1,3 @@
 <h1 align="center"> Projeto Site Sttamp Maxs </h1>
 
-[sttampmax_logo1_preta](https://imgur.com/a/WS7ntdL)
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)

@@ -342,7 +342,8 @@ tfoot td, table th {
 }
 
 .form-group {
-    flex: 1 1 30rempx;
+    /* flex: 1 1 30rempx; */
+    position: relative;
 }
 
 .form-group .underline::after{

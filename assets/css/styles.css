@@ -526,7 +526,8 @@ body .full-width {
     }
 
     .intro-content,
-    .grid {
+    .grid,
+    .grid-services {
         grid-template-columns: 1fr;
     }
 

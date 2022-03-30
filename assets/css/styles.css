@@ -369,6 +369,7 @@ tfoot td, table th {
 
 .form-group label{
     display: block;
+    position: relative;
 }
 
 .form-group input, .form-group textarea{

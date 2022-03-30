@@ -363,7 +363,9 @@ tfoot td, table th {
     transform: scaleX(1);
 }
 
-
+.form-group textarea:focus ~ .underline::after {
+    transform: scaleX(1);
+}
 
 .form-group label{
     display: block;
@@ -379,11 +381,6 @@ tfoot td, table th {
     outline: none;
 }
 
-.form-group input:focus, .form-group textarea:focus{
-    transition: all 100ms ease-in-out;
-    box-shadow: 0px 3px 0px var(--yellow-stm);
-    
-}
 
 body .full-width {
     width: 100%;

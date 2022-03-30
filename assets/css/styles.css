@@ -363,9 +363,7 @@ tfoot td, table th {
     transform: scaleX(1);
 }
 
-.form-group textarea:focus ~ .underline::after {
-    transform: scaleX(1);
-}
+
 
 .form-group label{
     display: block;

@@ -255,6 +255,24 @@ p {
 
 }
 
+.grid-services {
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: var(--gap);
+
+}
+
+.grid-services h3 {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    display: grid;
+    gap: var(--gap);
+    counter-reset: grid-counter;
+
+}
+
 .grid article:hover {
     transition: all 300ms ease-in-out;
     background-color: #3a4a7a;
@@ -369,6 +387,13 @@ table th {
     font-style: italic;
     font-size: 2rem;
     margin-bottom: 3rem;
+}
+
+.form-grid legend::before {
+    display: block;
+    content: "✉️";
+    font-style: normal;
+
 }
 
 .form-group {

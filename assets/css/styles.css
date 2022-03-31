@@ -181,10 +181,12 @@ p {
     gap: var(--gap);
     min-height: 100vh;
 
+
 }
 
 .intro-text-content,
 .intro-img {
+
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -534,22 +536,29 @@ body .full-width {
         display: none;
     }
 
+    .intro-text-content {}
+
     .intro-content,
     .grid,
     .grid-services {
         grid-template-columns: 1fr;
+
     }
 
     h1 {
-        font-size: 3.5rem
+        font-size: 3rem;
     }
 
     h2 {
-        font-size: 3.5rem
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
     }
 
     h5 {
-        font-size: 3.5rem
+        font-size: 2rem;
     }
 
     .gallery-img {

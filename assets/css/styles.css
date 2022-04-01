@@ -265,8 +265,9 @@ p {
 .grid-services {
     font-size: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 2fr);
     gap: var(--gap);
+
 
 }
 
@@ -277,6 +278,7 @@ p {
     display: grid;
     gap: var(--gap);
     counter-reset: grid-counter;
+    border: 1px solid rgba(0, 0, 0, .2);
 
 }
 
@@ -535,8 +537,6 @@ body .full-width {
     .banner-img img {
         display: none;
     }
-
-    .intro-text-content {}
 
     .intro-content,
     .grid,

@@ -5,6 +5,7 @@
 
 <h2>Descrição:</h2>
 <p>Projeto em desenvolvimento, landing page para a metalurgica Sttamp Maxs.
+  
   ## Tecnologias utilizadas:
 
 - ``CSS``

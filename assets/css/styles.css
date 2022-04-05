@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
@@ -534,7 +534,9 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
-    .banner-img img {
+
+    .banner-img img,
+    .form-img {
         display: none;
     }
 
